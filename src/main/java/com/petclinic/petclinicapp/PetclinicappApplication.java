@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PetclinicappApplication {
 
     public static void main(String[] args) {
+        System.out.println("inside main class");
         SpringApplication.run(PetclinicappApplication.class, args);
     }
 }
